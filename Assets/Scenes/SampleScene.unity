@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 7465783}
   - component: {fileID: 7465782}
   m_Layer: 0
-  m_Name: Actor (1)
+  m_Name: AI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -148,10 +148,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 7465781}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75136d68dcaee1047988111286a9edc5, type: 3}
+  m_Script: {fileID: 11500000, guid: dc114796db36a0e478941a8141dc3c8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  commandQueue: {fileID: 1559064524}
+  delay: 1
+  goal: {fileID: 1366218914}
+  commandStream: {fileID: 1559064524}
 --- !u!212 &7465783
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -246,7 +248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75136d68dcaee1047988111286a9edc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  commandQueue: {fileID: 1559064524}
+  commandStream: {fileID: 1559064524}
 --- !u!212 &421450163
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -486,7 +488,7 @@ GameObject:
   - component: {fileID: 1559064525}
   - component: {fileID: 1559064524}
   m_Layer: 0
-  m_Name: CommandQueue
+  m_Name: Command Stream
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

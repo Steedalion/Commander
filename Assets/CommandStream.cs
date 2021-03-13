@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CommandQueue : MonoBehaviour
+public class CommandStream : MonoBehaviour
 {
     public void AddCommand(Command command)
     {
