@@ -1,0 +1,11 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/.idea.Commando.iml
+/modules.xml
+/contentModel.xml
+/projectSettingsUpdater.xml
+# Datasource local storage ignored files
+/../../../../../../../../../:\Users\HomeLocalUser\Documents\Unity projects\Commando\.idea\.idea.Commando\.idea/dataSources/
+/dataSources.local.xml
