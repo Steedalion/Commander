@@ -10,11 +10,16 @@ public class MoveDirection : Command
         this.direction = direction;
     }
 
-    private GameObject gameObject;
+    private readonly GameObject gameObject;
 
-        private Vector3 direction;
-public void execute()
+        private readonly Vector3 direction;
+public void Execute()
     {
         gameObject.transform.position += direction;
     }
+
+public void Unexecute()
+{
+    gameObject.transform.position -= direction;
+}
 }

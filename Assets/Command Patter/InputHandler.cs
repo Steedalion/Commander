@@ -18,6 +18,12 @@ public class InputHandler : MonoBehaviour
                                                     commandStream.AddCommand(move);
         }
 
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            move = new MoveDirection(gameObject, Vector3.right);
+                                                    commandStream.AddCommand(move);
+        }
+
         
 
     }
